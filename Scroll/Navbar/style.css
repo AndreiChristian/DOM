@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  transition: top 0.3s;
+
+  background-color: mediumblue;
+  height: 10vh;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  gap: 2vw;
+  padding: 0 2vw;
+  font-size: x-large;
+}
+
+.spacer {
+  flex: 1;
+}
+
+section {
+  background-color: whitesmoke;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: larger;
+  box-sizing: border-box;
+  padding: 10vh 5vh;
+  min-width: 100vh;
+}

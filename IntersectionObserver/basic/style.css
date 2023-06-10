@@ -1,0 +1,21 @@
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.item {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1s, transform 1s;
+  height: 50vh;
+  width: 50vh;
+  background-color: red;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Monoton&family=Nanum+Myeongjo&family=Playfair+Display:wght@500&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50vh;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #333;
+  padding: 20vh 0;
+}
+
+.item {
+  opacity: 0;
+  /* transform: translateX(-100px); */
+  transition: opacity 1s, transform 1s;
+  height: 50vh;
+  width: 50vh;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.101);
+  border-radius: 20px;
+  color: #ccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Monoton", cursive;
+  flex-shrink: 0;
+}
+
+.visible {
+  opacity: 1;
+  /* transform: translateX(0); */
+}
